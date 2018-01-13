@@ -26,7 +26,7 @@ public class Arquivo2 {
 
 		}
 
-		//Leitura
+		// Leitura
 		try (BufferedReader reader = Files.newBufferedReader(path, utf8)) {
 			String line = null;
 			while ((line = reader.readLine()) != null) {
