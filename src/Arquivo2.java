@@ -15,7 +15,7 @@ public class Arquivo2 {
 		Path path = Paths.get("C:/file/texto.txt");
 
 		// java 7
-		// Escrita
+		// Escrita do bufffr
 		try (BufferedWriter bufferedWriter = Files.newBufferedWriter(path, utf8)) {
 
 			bufferedWriter.write("\nTexto");
