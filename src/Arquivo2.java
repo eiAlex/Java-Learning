@@ -25,6 +25,9 @@ public class Arquivo2 {
 			e.printStackTrace();
 
 		}
+		
+		
+		//realiza a leitura do arquivo
 
 		// Leitura
 		try (BufferedReader reader = Files.newBufferedReader(path, utf8)) {
