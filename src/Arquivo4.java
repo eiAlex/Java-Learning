@@ -14,7 +14,7 @@ public class Arquivo4 {
 		
 		// Exclusão de arquivos
 
-				//Files.delete(path);// tenta deleta se não encontrar lança exceção
+				//Files.delete(path);// tenta deleta se não encontrar lançar exceção
 				Files.deleteIfExists(path); // tenta deletar se exitir o arquivo mas não lança exeção
 
 		//Criação de aquivo
@@ -22,7 +22,7 @@ public class Arquivo4 {
 		
 		
 		System.out.println(Files.exists(path)); // se o arquivo existe
-		System.out.println(Files.isDirectory(path)); // se é um diretorio
+		System.out.println(Files.isDirectory(path)); // se é um diretório
 		System.out.println(Files.isRegularFile(path)); // se é uma arquivo regular texto imagem etcc
 		System.out.println(Files.isReadable(path)); // se pode ser lido
 		System.out.println(Files.isExecutable(path)); // se pode executado pelo usuario
