@@ -17,9 +17,8 @@ public class Arquivo4 {
 				//Files.delete(path);// tenta deleta se não encontrar lançar exceção
 				Files.deleteIfExists(path); // tenta deletar se exitir o arquivo mas não lança exeção
 
-		//Criação de aquivo
+		//Criação de arquivo
 				Files.createFile(path);
-		
 		
 		System.out.println(Files.exists(path)); // se o arquivo existe
 		System.out.println(Files.isDirectory(path)); // se é um diretório
