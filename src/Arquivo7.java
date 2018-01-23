@@ -7,7 +7,7 @@ public class Arquivo7 {
 
 	public static void main(String[] args) throws IOException {
 
-		// Retorna Informações das partições.
+		// Retorna Informações das partições das unidades.
 
 		FileSystem fs = FileSystems.getDefault();
 
