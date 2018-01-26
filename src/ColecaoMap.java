@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class ColecaoMap {
 
@@ -16,6 +17,15 @@ public class ColecaoMap {
 		System.out.println(pais.containsValue("Brasil")); //Verifica se existe um valor
 		System.out.println(pais.get("BR")); //recupera um conteúdo
 		System.out.println(pais.remove("RU")); // remove um conteúdo
+		
+		//percorrendo um map
+		Set<String> Keys = pais.keySet();
+		
+		for (String key : Keys) {
+			System.out.println(key + " : " +pais.get(key));
+		}
+		
+		
 	}
 
 }
