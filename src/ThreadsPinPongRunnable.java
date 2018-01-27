@@ -1,10 +1,10 @@
 
-public class ThreadsPinPong extends Thread {
+public class ThreadsPinPongRunnable implements Runnable {
 
 	private String palavra;
 	long tempo;
 
-	public ThreadsPinPong(String palavra, long tempo) {
+	public ThreadsPinPongRunnable(String palavra, long tempo) {
 		this.palavra = palavra;
 		this.tempo = tempo;
 	}
@@ -22,11 +22,16 @@ public class ThreadsPinPong extends Thread {
 
 	public static void main(String[] args) {
 
-		new ThreadsPinPong("Ping", 1500).start();
-		new ThreadsPinPong("Pong", 2000).start();
+		Runnable ping = new ThreadsPinPongRunnable("Ping", 1500);
+		Runnable pong = new ThreadsPinPongRunnable("Pong", 2000);
 
 		System.out.println("Ver Thread");
 
+		
+		new Thread(ping, "ping").start();
+		new Thread(pong, "Pong").start();
+		
+		
 	}
 
 }
