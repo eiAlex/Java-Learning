@@ -11,6 +11,7 @@ public class Sistemas {
 		System.out.println(p.getProperty("java.version"));
 		p.setProperty("teste.test", "1.0.0");
 		
+		
 		Set<Object> pk = p.keySet();
 		for (Object key : pk) {
 			System.out.println(key + " = "+p.get(key));
