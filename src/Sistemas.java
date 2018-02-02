@@ -16,6 +16,8 @@ public class Sistemas {
 			System.out.println(key + " = "+p.get(key));
 		}
 		
+		
+		
 		Console c = System.console(); // Útil para aplicações que interagem com prompt de comando 
 		
 		Runtime.getRuntime().exec("notepad");  // executa uma aplicação do SO
