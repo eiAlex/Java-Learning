@@ -1,0 +1,15 @@
+
+Ctrl+F- Exibe uma tela de pesquisa/substituição de texto.
+Ctrl+L- Posiciona o cursor em um número de linha especificado.
+Ctrl+Shift+F - Formata o código-fonte de acordo com as convenções da Oracle.
+Ctrl+Shift+O - Organiza as importações de  uma classe.
+Ctrl+/ - Inclui ou exclui um comentário de linha.
+Ctrl+Shift+/- Inclui um comentário de bloco para o código selecionado.
+Ctrl+1 - Exibe um painel com sugestões para corrigir determinado código (normalmente usado em cima de um código que possui erro).
+Ctrl+M - Alterna o modo de exibição da view atual ou do editor de código- fonte para tela cheia ou normal.
+Ctrl+PgUp - Quando você estiver trabalhando com vários arquivos e classes ,este atalho navega nas abas em direção à sua esquerda.
+Ctrl+PgDown - O mesmo que o atalho anterior, porém a navegação é para a direita.
+Ctrl+O -Abre um menu com os membros da classe para navegação rápida. 
+Ctrl+Shift+T – Abre tela de pesquisa de tipos (classes).
+Ctrl+Shift+R –Abre tela de pesquisa de recursos (qualquer arquivo que faz parte do projeto).
+Ctrl+3 – Exibe um menu de opções com praticamente todas as funções do Eclipse.
